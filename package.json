@@ -1,0 +1,19 @@
+{
+  "name": "ai-ltd",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.0",
+    "@netlify/database": "^1.0.0",
+    "@netlify/functions": "^2.0.0",
+    "@netlify/identity": "^1.0.0",
+    "drizzle-orm": "beta"
+  },
+  "devDependencies": {
+    "drizzle-kit": "beta",
+    "typescript": "^5.0.0"
+  }
+}
